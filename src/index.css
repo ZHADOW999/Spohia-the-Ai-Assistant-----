@@ -5,24 +5,24 @@
 
 @font-face {
   font-family: Archivo-bold;
-  src: url(./assets/fonts/Archivo-Bold.ttf);
+  src: url(./assets/fonts/RMNeueTRIAL-Bold.otf);
 }
 @font-face {
   font-family: Archivo-regular;
-  src: url(./assets/fonts/Archivo-Regular.ttf);
+  src: url(./assets/fonts/RMNeueTRIAL-Regular.otf);
 }
 @font-face{
   font-family: Archivo-semibold;
-  src: url(./assets/fonts/Archivo-SemiBold.ttf)
+  src: url(./assets/fonts/RMNeueTRIAL-Regular.otf)
 }
 
-@theme {
+@theme {  
 
   /* mine */
-  --color-primary-dark:#E0E0E0;
+  --color-primary-dark:#f5f5f5;
   --color-primary:#1f1f1f;
   --color-background: #ffffffff;
-  --color-background-dark: #1B1C1D;
+  --color-background-dark: #101416;
   --color-accent-main:#01C853;
   --color-accent-50:#56DA8C;
   --color-accent-100:#01A745;
@@ -33,14 +33,20 @@
   --color-chat-bubble:#D9F7E6;
   --color-chat-bubble-dark:#56DA8C;
   --color-border-color:#d5d5d5;
-  --color-border-color-dark: #515050;
+  --color-border-color-dark: #1E2224;
   --color-background-secondary: #F9F9F9;
-  --color-background-secondary-dark: #282A2C;
+  --color-background-secondary-dark: #15191B;
+  --color-bg-3-dark: #060A0D;
   --font-family-regular: Archivo-regular;
   --font-family-bold: Archivo-bold;
   --font-family-semibold: Archivo-semibold;
 }
-
+/* 
+@layer base{
+  body{
+    @apply bg-bg-3
+  }
+} */
 
 
 /* HTML: <div class="loader"></div> */

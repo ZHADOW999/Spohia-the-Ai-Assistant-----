@@ -1,0 +1,20 @@
+{
+   "data":[
+    {
+        "title":"Recent News",
+        "des":"Stay instantly informed with the latest educational updates and announcements"
+    },
+    {
+        "title":"Fact Checker",
+        "des":"Get verified, accurate answers and data on any educational query"
+    },
+    {
+        "title":"Process Guides",
+        "des":"Navigate complex admission processes with step-by-step instructions and checklists."
+    },
+    {
+        "title":"Study Resources",
+        "des":"Access official syllabi and find trusted materials to prepare for your exams."
+    }
+   ]
+}
