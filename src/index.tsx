@@ -344,7 +344,7 @@ function HomeContent() {
             )}
             {/* Chat bubbles for prompt/response pairs */}
             {activeMessages && activeMessages.length > 0 && (
-              <div className="flex flex-col gap-4 w-full mb-30">
+              <div className="flex flex-col gap-4 w-full mb-20">
                 {activeMessages.map((msg, idx) => (
                   <div key={idx} className="flex mb-10 flex-col gap-10 px-5">
                     {/* Prompt bubble */}

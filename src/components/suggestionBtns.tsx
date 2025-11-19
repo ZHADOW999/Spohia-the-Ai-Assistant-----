@@ -6,7 +6,7 @@ function SuggestionBtns() {
     <div className='flex gap-3 mt-9 '>
         {data.data.map((item: { title: string; des: string })=>{
             return (
-                <div className=" dark:bg-background-secondary-dark bg-background-secondary py-7 px-4  rounded-xl dark:shadow-[inset_-0px_-0px_15px_rgba(0,0,0,0.4)] dark:border-border-color-dark border-border-color border">
+                <div className=" dark:bg-background-secondary-dark bg-background-secondary py-7 px-4  rounded-xl dark:shadow-[inset_-0px_-0px_15px_rgba(0,0,0,0.4)] shadow-[inset_-0px_-0px_10px_rgba(0,0,0,0.2)] dark:border-border-color-dark border-border-color border">
                     <div key={item.title}className='justify-between items-center flex'>
                         <p className="text-lg text-primary dark:text-primary-dark">{item.title}</p>
                         <img src={Vector} alt="icon" />
